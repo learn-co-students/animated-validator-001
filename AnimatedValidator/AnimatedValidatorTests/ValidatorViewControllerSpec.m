@@ -1,6 +1,6 @@
 //
-//  AnimatedValidatorTests.m
-//  AnimatedValidatorTests
+//  ValidatorViewControllerSpec.m
+//  AnimatedValidator
 //
 //  Created by Al Tyus on 5/12/14.
 //  Copyright (c) 2014 al-tyus.com. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface AnimatedValidatorTests : XCTestCase
+@interface ValidatorViewControllerSpec : Specta
 
 @end
 
-@implementation AnimatedValidatorTests
+@implementation ValidatorViewControllerSpec
 
 - (void)setUp
 {
