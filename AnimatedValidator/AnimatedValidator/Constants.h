@@ -15,5 +15,8 @@ extern NSString *const EMAILCONFIRMTEXTFIELD;
 extern NSString *const PHONETEXTFIELD;
 extern NSString *const PASSWORDTEXTFIELD;
 extern NSString *const PASSWORDCONFIRMTEXTFIELD;
+extern NSString *const SUBMITBUTTON;
+extern NSString *const ALERTVIEW;
+
 
 @end

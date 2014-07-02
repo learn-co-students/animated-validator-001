@@ -15,5 +15,7 @@ NSString *const EMAILCONFIRMTEXTFIELD = @"emailConfirmTextField";
 NSString *const PHONETEXTFIELD = @"phoneTextField";
 NSString *const PASSWORDTEXTFIELD = @"passwordTextField";
 NSString *const PASSWORDCONFIRMTEXTFIELD = @"passwordConfirmTextField";
+NSString *const SUBMITBUTTON = @"submitButton";
+NSString *const ALERTVIEW = @"alertView";
 
 @end
