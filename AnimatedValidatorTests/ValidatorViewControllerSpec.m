@@ -56,7 +56,7 @@ describe(@"ValidatorViewController", ^{
         expect(submitButton.userInteractionEnabled).to.beFalsy();
         
         [tester tapViewWithAccessibilityLabel:PASSWORDCONFIRMTEXTFIELD];
-        [tester enterText:@"myPassword1" intoViewWithAccessibilityLabel:PASSWORDCONFIRMTEXTFIELD];
+        [tester enterText:@"myPassword1\n" intoViewWithAccessibilityLabel:PASSWORDCONFIRMTEXTFIELD];
         
         
         expect(submitButton.userInteractionEnabled).to.beTruthy();
