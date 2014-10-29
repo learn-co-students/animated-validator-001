@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		446B443B1964AADC00047086 /* ValidatorViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 446B443A1964AADC00047086 /* ValidatorViewControllerSpec.m */; };
 		44CD1C0619215BE700140BD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CD1C0519215BE700140BD0 /* Foundation.framework */; };
 		44CD1C0819215BE700140BD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CD1C0719215BE700140BD0 /* CoreGraphics.framework */; };
 		44CD1C0A19215BE700140BD0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44CD1C0919215BE700140BD0 /* UIKit.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		446B443A1964AADC00047086 /* ValidatorViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidatorViewControllerSpec.m; sourceTree = "<group>"; };
 		44CD1C0219215BE700140BD0 /* AnimatedValidator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedValidator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CD1C0519215BE700140BD0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		44CD1C0719215BE700140BD0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,7 +60,8 @@
 		44CD1C3E19215E3B00140BD0 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		44E2FA95192176AA00B0C60A /* ValidatorViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValidatorViewControllerSpec.m; sourceTree = "<group>"; };
 		6296CDC2AD0A4B6CB401192C /* libPods-AnimatedValidatorTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AnimatedValidatorTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA857A25E3814224896AE26D /* Pods-AnimatedValidatorTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedValidatorTests.xcconfig"; path = "Pods/Pods-AnimatedValidatorTests.xcconfig"; sourceTree = "<group>"; };
+		7819628E572B6A875CCF9CF5 /* Pods-AnimatedValidatorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedValidatorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedValidatorTests/Pods-AnimatedValidatorTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB581B4F9D8A8FA690A3A549 /* Pods-AnimatedValidatorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedValidatorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AnimatedValidatorTests/Pods-AnimatedValidatorTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +96,7 @@
 				44CD1C2A19215BE800140BD0 /* AnimatedValidatorTests */,
 				44CD1C0419215BE700140BD0 /* Frameworks */,
 				44CD1C0319215BE700140BD0 /* Products */,
-				DA857A25E3814224896AE26D /* Pods-AnimatedValidatorTests.xcconfig */,
+				6CB7483EEDF5FB8ED7459A3F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +151,7 @@
 		44CD1C2A19215BE800140BD0 /* AnimatedValidatorTests */ = {
 			isa = PBXGroup;
 			children = (
+				446B443A1964AADC00047086 /* ValidatorViewControllerSpec.m */,
 				44CD1C2B19215BE800140BD0 /* Supporting Files */,
 				44E2FA95192176AA00B0C60A /* ValidatorViewControllerSpec.m */,
 			);
@@ -161,6 +165,15 @@
 				44CD1C2D19215BE800140BD0 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6CB7483EEDF5FB8ED7459A3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB581B4F9D8A8FA690A3A549 /* Pods-AnimatedValidatorTests.debug.xcconfig */,
+				7819628E572B6A875CCF9CF5 /* Pods-AnimatedValidatorTests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +298,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-AnimatedValidatorTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AnimatedValidatorTests/Pods-AnimatedValidatorTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -307,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E2FA96192176AA00B0C60A /* ValidatorViewControllerSpec.m in Sources */,
+				446B443B1964AADC00047086 /* ValidatorViewControllerSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,7 +460,7 @@
 		};
 		44CD1C3819215BE800140BD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA857A25E3814224896AE26D /* Pods-AnimatedValidatorTests.xcconfig */;
+			baseConfigurationReference = BB581B4F9D8A8FA690A3A549 /* Pods-AnimatedValidatorTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnimatedValidator.app/AnimatedValidator";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -469,7 +483,7 @@
 		};
 		44CD1C3919215BE800140BD0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA857A25E3814224896AE26D /* Pods-AnimatedValidatorTests.xcconfig */;
+			baseConfigurationReference = 7819628E572B6A875CCF9CF5 /* Pods-AnimatedValidatorTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AnimatedValidator.app/AnimatedValidator";
 				FRAMEWORK_SEARCH_PATHS = (
