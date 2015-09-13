@@ -10,4 +10,12 @@
 
 @interface ValidatorViewController : UIViewController
 
+-(BOOL)isValidEmail:(NSString *)text;
+-(BOOL)isConfirmedEmail:(NSString *)text;
+-(BOOL)isValidPassword:(NSString *)password;
+-(BOOL)isPhoneNumberValid:(NSString *)phoneNumber;
+-(BOOL)isConfirmedPassword:(NSString *)text;
+-(BOOL)allFieldsValid;
+-(void)changeMade:(UITextField *)textField;
+
 @end
