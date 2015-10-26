@@ -23,7 +23,7 @@ animated-validator
   5. Password
     * at least 6 characters
   6. Password Confirm
-    * should be the same as Password
+    * should be the same as the first password field
 
 ## Extra Credit
 
