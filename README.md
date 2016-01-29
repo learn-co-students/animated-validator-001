@@ -29,4 +29,4 @@ animated-validator
 
   1. Have the text views move up when the keyboard is shown, if needed. Check for relevant Cocoapods!
 
-<a href='https://learn.co/lessons/animated-validator' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/animated-validator' title='animated-validator'>animated-validator</a> on Learn.co and start learning to code for free.</p>
