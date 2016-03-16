@@ -38,28 +38,29 @@ describe(@"ValidatorViewController", ^{
         [tester tapViewWithAccessibilityLabel:EMAILTEXTFIELD];
         [tester enterText:@"al@flatironschool.com" intoViewWithAccessibilityLabel:EMAILTEXTFIELD];
         
-        expect(submitButton.userInteractionEnabled).to.beFalsy();
+        expect(submitButton.enabled).to.beFalsy();
         
         [tester tapViewWithAccessibilityLabel:EMAILCONFIRMTEXTFIELD];
         [tester enterText:@"al@flatironschool.com" intoViewWithAccessibilityLabel:EMAILCONFIRMTEXTFIELD];
         
-        expect(submitButton.userInteractionEnabled).to.beFalsy();
+        expect(submitButton.enabled).to.beFalsy();
         
         [tester tapViewWithAccessibilityLabel:PHONETEXTFIELD];
-        [tester enterText:@"+16466440584" intoViewWithAccessibilityLabel:PHONETEXTFIELD];
+        [tester enterText:@"6466440584" intoViewWithAccessibilityLabel:PHONETEXTFIELD];
         
-        expect(submitButton.userInteractionEnabled).to.beFalsy();
+        expect(submitButton.enabled).to.beFalsy();
         
         [tester tapViewWithAccessibilityLabel:PASSWORDTEXTFIELD];
         [tester enterText:@"myPassword1" intoViewWithAccessibilityLabel:PASSWORDTEXTFIELD];
         
-        expect(submitButton.userInteractionEnabled).to.beFalsy();
+        expect(submitButton.enabled).to.beFalsy();
         
         [tester tapViewWithAccessibilityLabel:PASSWORDCONFIRMTEXTFIELD];
         [tester enterText:@"myPassword1\n" intoViewWithAccessibilityLabel:PASSWORDCONFIRMTEXTFIELD];
         
-        
-        expect(submitButton.userInteractionEnabled).to.beTruthy();
+        [tester tapViewWithAccessibilityLabel:EMAILTEXTFIELD];
+
+        expect(submitButton.enabled).to.beTruthy();
         
     });
     
